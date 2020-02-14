@@ -1,0 +1,25 @@
+body{
+    /* Aqui altera a cor e a fonte das letras */
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   
+}
+
+h1 {
+    /* Aqui coloca uma imagem sob o título*/
+    background-image: url(../img/sobre-background.jpg);
+}
+
+h2 {
+    /*Coloca uma borda simples abaixo do nome história*/
+   border-bottom: 2px solid #333333;
+}
+
+figure {
+    background-color: #F2EDED;/*Coloca um fundo cinza*/
+    border: 1px solid #ccc;/*Coloca uma borda sutil*/
+    text-align: center;/*Alinha a imagem e a legenda no centro*/
+    }
+    figcaption {
+    font-style: italic;
+}
