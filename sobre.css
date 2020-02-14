@@ -2,24 +2,71 @@ body{
     /* Aqui altera a cor e a fonte das letras */
     color: #333333;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-   
+    /*Centraliza o body*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
 }
 
 h1 {
+    
+    padding: 10px;/*Define o espassamento*/
     /* Aqui coloca uma imagem sob o título*/
     background-image: url(../img/sobre-background.jpg);
+    
 }
 
 h2 {
     /*Coloca uma borda simples abaixo do nome história*/
    border-bottom: 2px solid #333333;
+   margin-top:30px;
 }
 
 figure {
     background-color: #F2EDED;/*Coloca um fundo cinza*/
     border: 1px solid #ccc;/*Coloca uma borda sutil*/
     text-align: center;/*Alinha a imagem e a legenda no centro*/
-    }
-    figcaption {
+    padding: 15px;
+    margin: 30px;
+}
+
+#centro-distribuicao{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    
+
+}
+
+figcaption {
     font-style: italic;
+    margin-top: 10px;
+}
+
+p{
+    padding: 0 45px;
+    text-indent: 15px;
+}
+
+#rodape{
+
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+
+}
+
+#rodape img{
+
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+
+}
+
+#familia-pelho{
+
+    float: right;/* A imagem ficará "flutuando" a direita do texto */
+    margin: 0 0 10px 10px /* As margens têm as seguintes características: 0 no topo / 0 a direita / 10 abaixo / 10 a esquerda */ 
 }
